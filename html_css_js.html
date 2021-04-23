@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles__portfolio.css">
+    <title>Welcome to Kevin's Homepage</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header" id="header">
+            <div class="logo">
+                <a href="#" class="header__logo" style="color: #303030">
+                    <h2><span>K</span>evin <span>K</span>im</h2>
+                </a>
+            </div>
+            <nav>
+                <div class="hamburger" style="color: #303030">
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav__items" style="color: #303030">
+                    <li class="nav__item"><a href="#intro">
+                            <h3 data-after="Home">Home</h3>
+                        </a></li>
+                    <li class="nav__item"><a href="#about">
+                            <h3>About</h3>
+                        </a></li>
+                    <li class="nav__item"><a href="#services">
+                            <h3>Services</h3>
+                        </a></li>
+                    <li class="nav__item"><a href="#projects">
+                            <h3>Projects</h3>
+                        </a></li>
+                    <li class="nav__item"><a href="#footer">
+                            <h3>Contact</h3>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <main>
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h1 class="section__title section__title--projects">HTML, CSS <span>and JS</span></h1>
+            <div class="project">
+                <div class="project__body">
+                    <h3 class="project__title">Sketchbook</h3>
+
+                    <ul>
+                        <li>
+                            <p>Technology used: HTML, CSS, JS, Canvas</p>
+                        </li>
+                        <li>
+                            <p>Implement a drawing app by using canvas in JS</p>
+                        </li>
+                        <li>
+                            <p>First project by using canvas API in JavaScript</p>
+                        </li>
+                        <li class="project__link">
+                            <a href="https://github.com/Jaehan-Kevin-Kim/Drawing_App/tree/master">Link to Source
+                                Code</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://github.com/Jaehan-Kevin-Kim/Drawing_App/tree/master" class="project__img">
+                    <img class="project__individual__img" src="./img/Sketchbook.png" alt="sketchbook">
+                </a>
+                <!-- <div class="project__img">
+                    <img src="./img/img-1.png" alt="project thumnail">
+                </div> -->
+            </div>
+            <div class="project">
+                <div class="project__body">
+                    <h3 class="project__title">ToDo List</h3>
+
+                    <ul>
+                        <li>
+
+                            <p>Technology used: JS, Local Storage, API, Fetch, Promise </p>
+                        </li>
+                        <li>
+                            <p>Implement a welcome page by remembering user's name and todo list stored in the local
+                                storage</p>
+                        </li>
+                        <li>
+                            <p>Implement todo list function and store the todo list data into the local storage</p>
+                        </li>
+                        <li>
+                            <p>Implement a weather API to show the current temperature of the current location by city
+                                name</p>
+                        </li>
+                        <li>
+                            <p>Implement a real time watch and continuously updated on the screen</p>
+                        </li>
+
+                        <li class="project__link">
+                            <a href="https://github.com/Jaehan-Kevin-Kim/ToDoList">Link to Source
+                                Code</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://github.com/Jaehan-Kevin-Kim/ToDoList" class="project__img">
+                    <img class="project__individual__img" src="./img/welcome_page.png" alt="sketchbook">
+                </a>
+                <!-- <div class="project__img">
+                    <img src="./img/img-1.png" alt="project thumnail">
+                </div> -->
+            </div>
+
+        </section>
+        <!-- /Projects -->
+        <!-- Footer -->
+        <footer class="footer" id="footer">
+            <p>
+            <h3 class="footer__title"><span>K</span>evin <span>K</span>im </h3>
+            </p>
+            <a href="mailto:kevin.kim9685@gmail.com" class="footer__link">Kevin.kim9685@gmail.com</a>
+            <ul class="social-site">
+                <li class="social-site__item"><a class="social-site__link" href="https://codepen.io"><i
+                            class="fab fa-codepen"></i></a></li>
+                <li class="social-site__item"><a class="social-site__link" href="http://dribbble.com"><i
+                            class="fab fa-dribbble"></i></a></li>
+                <li class="social-site__item"><a class="social-site__link" href="https://twitter.com"><i
+                            class="fab fa-twitter"></i></a></li>
+                <li class="social-site__item"><a class="social-site__link" href="https://github.com"><i
+                            class="fab fa-github"></i></a></li>
+        </footer>
+        <!-- /Footer -->
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

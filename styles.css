@@ -566,6 +566,7 @@ section.services {
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0;
+  box-shadow: var(--bs);
 }
 
 .projects .project {
@@ -578,7 +579,6 @@ section.services {
   /* overflow: hidden; */
   position: relative;
   z-index: 1;
-  box-shadow: var(--bs);
 
   /* flex-basis: 50%; */
 }
@@ -594,6 +594,14 @@ section.services {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+}
+
+.project .project__body a {
+  color: inherit;
+}
+
+.project .project__body a:hover {
+  opacity: 0.8;
 }
 
 .project .project__img {
