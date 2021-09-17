@@ -9,6 +9,19 @@
 /* @media only screen and (max-width: 1400px) {
    */
 
+.portfolio__body {
+  display: flex;
+  flex-direction: column;
+  background: var(--clr-dark);
+}
+header {
+  margin-bottom: 1.5em;
+}
+
+.header__logo {
+  height: fit-content;
+}
+
 .header__logo h2 {
   color: var(--clr-light);
 }
@@ -21,11 +34,17 @@
   opacity: 0.8;
 }
 
+.portfolio__body main {
+  /* margin-top: 48px; */
+  background-color: var(--clr-darker);
+  margin-top: 1.5em;
+}
 .projects {
   background-color: var(--clr-dark);
   color: white;
   margin-bottom: 1em;
   padding: 0.5em;
+
   /* box-shadow: ; */
 }
 
@@ -33,13 +52,19 @@
   margin-top: 1em;
 }
 .project {
-  height: 20em !important;
+  /* height: 20em !important; */
+  height: 100% !important;
+
   padding: 10px 0;
   border-top: 1px solid white;
+  display: flex;
+  align-items: center;
 }
 
 .project__individual__img {
   object-fit: contain;
+  background: lightgray;
+  height: 20em;
 }
 
 .project__body {
@@ -62,7 +87,7 @@
 }
 
 .project__body li {
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   margin: 0.5rem 0.5rem;
 }
 
@@ -85,6 +110,14 @@
   /* .project__todo ul li {
     margin: 0;
   } */
+
+@media only screen and (max-width: 800px) {
+  .portfolio__body main {
+    /* margin-top: 48px; */
+    background-color: var(--clr-darker);
+    margin-top: 2em;
+  }
+}
 
 @media only screen and (min-width: 1300px) {
   /* body {
