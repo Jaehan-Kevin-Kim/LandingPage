@@ -36,7 +36,8 @@
   --fs-body: 0.8rem;
 
   /* box-shadow */
-  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
@@ -498,6 +499,11 @@ section.about img {
 }
 .section__body--about--history .iContribute {
   width: 50px;
+}
+.section__body--about--history .modernBeauty {
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section__body--about--history .history__title {
